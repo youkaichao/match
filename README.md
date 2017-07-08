@@ -1,8 +1,1 @@
-txt files in this directory comes from the output of the hardware.
-
-files and the meaning of their contents are shown as follows:
-	|File|description|Unit|Comments|
-	|:--:|:---------:|:--:|:------:|
-	|distance.txt|the distance between ultrasonic range finder and the nearest object|centimeter|None|
-	|humidity.txt|the humidity of the environment|percent|range from 20% to 90%, percent sign ommitted|
-	
+[真人图书馆]匹配程序 六字班寒假活动【真人图书馆】的匹配程序。 classQuestion.py是问题类 classPersonalInfo.py是个人信息类 classPerson.py是个聚合类 主要流程见【真人图书馆】匹配程序流程图.png （这里的匹配算法很糟糕，仅仅是我的直觉想出来的方法……） n个人之间两两匹配，如何定义最优匹配？（关键就是对A而言，B最匹配。可是对B而言，最优的可能不是A，这个该怎么处理？） 我所采用的方法，计算n个人之间两两得分的平均分，是否有意义？ ...... Just For Fun吧
